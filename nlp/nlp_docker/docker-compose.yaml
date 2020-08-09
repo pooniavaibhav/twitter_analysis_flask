@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  engine_ai:
+    image: "nlp_engine:0.0.2.0"
+    container_name: nlp_services
+    ports:
+      - 56733:5000
