@@ -8,10 +8,10 @@ from call import call_service
 
 class data_extract:
     # Credentials-
-    CONSUMER_KEY = 'PZFJ5OW0LaUXlfTsOxaN9aO4d'
-    CONSUMER_SECRET = '9hMbQYK3ArpJTR4GDojiKmvMQPXcfN2enAD2OjdK6duYiHHHpC'
-    ACCESS_TOKEN = '465665764-V7cme9ohdFVUBI2jqjXEK9lMZnzDpVl97AFVGMVW'
-    ACCESS_TOKEN_SECRET = "dP6AFK7v2tOE7LTNHRgNVMJtCzpZWv2cA1DczXTKLyMPQ"
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    ACCESS_TOKEN = ''
+    ACCESS_TOKEN_SECRET = ""
 
     def __init__(self, name, records):
         self.screen_name = name
